@@ -21,7 +21,7 @@ class DaySquare extends Component {
         <img className ="day-square-img" src={this.props.project.img} alt="project image" onClick={() => this.openModal()}/>
         <CustomModal isOpen={this.state.isModalOpen} onClose={() => this.closeModal()}>
           <ProjectInfo project={this.props.project}/>
-          <p><button onClick={() => this.closeModal()}>Close</button></p>
+          <p><button className="modal-button" onClick={() => this.closeModal()}>Close</button></p>
         </CustomModal>
       </div>
     )

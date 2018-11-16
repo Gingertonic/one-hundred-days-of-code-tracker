@@ -8,8 +8,8 @@ const ProjectInfo = props => {
       <p>{props.project.topic}</p>
       <img className="focus-image" src={props.project.img} alt={props.project.name}/>
       <ul>
-        <li><a href={props.project.linkToCode}>See the Code</a></li>
-        <li><a href={props.project.linkToDemo}>See it in Action</a></li>
+        <li><a href={props.project.linkToCode} target="_blank">See the Code</a></li>
+        <li><a href={props.project.linkToDemo} target="_blank">See it in Action</a></li>
       </ul>
     </div>
   )
