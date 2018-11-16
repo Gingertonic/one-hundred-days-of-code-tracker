@@ -1,25 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import DaySquare from './containers/DaySquare'
 import './App.css';
 
 class App extends Component {
+
   render() {
+    const projects = new Array(100).fill({name: "demo", img: "https://www.alambassociates.com/wp-content/uploads/2016/10/maxresdefault-768x432.jpg"})
+    const mapProjects =  projects.map(p => <DaySquare project={p}/>)
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        {mapProjects}
       </div>
     );
   }
