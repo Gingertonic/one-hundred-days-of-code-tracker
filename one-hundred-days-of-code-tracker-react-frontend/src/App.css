@@ -25,6 +25,10 @@
   opacity: 1;
 }
 
+.focus-image {
+  width: 30vh;
+}
+
 .backdrop {
   position: absolute;
   top: 0px;
@@ -42,6 +46,17 @@
   transform: translate(-50%, -50%);
   z-index: 9999;
   background-color: lightblue;
-  border: 2px solid grey;
+  border: 5px solid grey;
   padding: 5vh;
+}
+
+ul {
+  margin-top: 3vh;
+}
+
+ul,li {
+  list-style-type: none;
+  list-style-position:inside;
+  margin:0;
+  padding:0;
 }
