@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+/* font-family: 'Share Tech', sans-serif; */
+
 .App {
   text-align: center;
   width: 71vw;
   height: auto;
-  /* border: 1px solid grey; */
   margin-left: 15vw;
   margin-top: 15vh;
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Share Tech', sans-serif;
+  color: #332f28;
+  background-color: #d6a251;
+  padding: 5vh;
+  border: 2px dashed #332f28;
 }
 
 .day-square {
@@ -18,15 +25,20 @@
   height: 7vw;
   width: 7vw;
   object-fit: cover;
-  opacity: 0.5;
+  opacity: 0.8;
+  border-radius: 50%;
+  border: 1px solid grey;
 }
 
 .day-square-img:hover {
   opacity: 1;
+  border-radius: 30%;
+  border: 2px solid #332f28;
 }
 
 .focus-image {
-  width: 30vh;
+  height: 40vh;
+  border: 2px solid #332f28;
 }
 
 .backdrop {
@@ -45,18 +57,25 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 9999;
-  background-color: lightblue;
-  border: 5px solid grey;
+  background-color: #d6a251;
+  border: 5px dashed #857b6c;
   padding: 5vh;
+  height: 80vh;
+  overflow: scroll;
 }
 
 ul {
-  margin-top: 3vh;
+  margin-top: 5vh;
 }
 
 ul,li {
   list-style-type: none;
   list-style-position:inside;
-  margin:0;
+  margin-left:0;
   padding:0;
+}
+
+a {
+  text-decoration: none;
+  color: green;
 }

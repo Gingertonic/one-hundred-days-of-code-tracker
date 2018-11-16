@@ -19,7 +19,7 @@ class DaySquare extends Component {
     return(
       <div className ="day-square">
         <img className ="day-square-img" src={this.props.project.img} alt="project image" onClick={() => this.openModal()}/>
-        <CustomModal isOpen={this.state.isModalOpen} onClose={() => this.closeModal}>
+        <CustomModal isOpen={this.state.isModalOpen} onClose={() => this.closeModal()}>
           <ProjectInfo project={this.props.project}/>
           <p><button onClick={() => this.closeModal()}>Close</button></p>
         </CustomModal>
