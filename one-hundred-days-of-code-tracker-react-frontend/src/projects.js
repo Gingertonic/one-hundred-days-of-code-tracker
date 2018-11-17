@@ -46,8 +46,22 @@ export const projects = [{
   linkToCode: "https://medium.com/coderlist/congratulations-you-graduated-your-online-coding-course-what-now-f39d7360ba39",
   linkToDemo: "https://medium.com/coderlist/congratulations-you-graduated-your-online-coding-course-what-now-f39d7360ba39"
 },
-{day: 7, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
-{day: 8, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
+{
+  day: 7,
+  name: "100 Days Tracker",
+  img: "https://media.giphy.com/media/21JAZQJNZvrZreUZyJ/giphy.gif",
+  topic: "React App",
+  linkToCode: "https://github.com/Gingertonic/one-hundred-days-of-code-tracker",
+  linkToDemo: "https://one-hundred-days.herokuapp.com/"
+},
+{
+  day: 8,
+  name: "Flashy Blinkies with a Hurty Hand!",
+  img: "https://pbs.twimg.com/media/DsPVcLmXoAAS-2I.jpg:large",
+  topic: "Client Work",
+  linkToCode: "https://github.com/Gingertonic/one-hundred-days-of-code-tracker",
+  linkToDemo: "https://twitter.com/GingertonicSt/status/1063928647000707074"
+},
 {day: 9, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
 {day: 10, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
 {day: 11, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
