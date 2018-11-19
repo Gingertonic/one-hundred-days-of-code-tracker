@@ -62,7 +62,14 @@ export const projects = [{
   linkToCode: "https://github.com/Gingertonic/one-hundred-days-of-code-tracker",
   linkToDemo: "https://twitter.com/GingertonicSt/status/1063928647000707074"
 },
-{day: 9, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
+{
+  day: 9,
+  name: "Intro to TypeScript",
+  img: "https://pbs.twimg.com/media/DsYfLTkX4AEWzv3.jpg:large",
+  topic: "Explore Industry Tools",
+  linkToCode: "https://www.typescriptlang.org/play/index.html",
+  linkToDemo: "https://channel9.msdn.com/posts/Anders-Hejlsberg-Introducing-TypeScript"
+},
 {day: 10, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
 {day: 11, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
 {day: 12, name: "", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8Shzc1V5b1DbaYrq6DSBjlqMLq7xUlO91HHjDV8u8OTN_3t3", topic: "", linkToCode: "", linkToDemo: ""},
